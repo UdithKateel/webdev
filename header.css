@@ -1,0 +1,164 @@
+.header{
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    align-items: center;
+    border-bottom-width:1px ;
+    border-bottom-color:rgb(216, 214, 214) ;
+    border-bottom-style:solid ;
+  z-index: 100;
+}
+.left{
+    
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+.middle{
+   
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.right{
+    width: 225px;
+    
+    display: flex;
+    align-items: center;
+        flex-shrink: 0;
+     justify-content: space-between;
+}
+.menu{
+    height: 35px;
+    
+   
+   
+   
+}
+.ytl{
+    height: 65px;
+    width: 200px;
+   cursor: pointer;
+   
+}
+button{
+    height: 38px;
+    width: 60px;
+    border-radius: 5px;
+    border-color: solid rgb(185, 184, 184);
+    border-width: 1px;
+     margin-left: -1px;
+     margin-right: 15px;
+     cursor: pointer;
+}
+.sicon,.micon{
+    height: 25px;
+     margin-top: 4px;
+     cursor: pointer;
+   
+}
+.btnmic{
+    width: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#search{
+    flex: 1;
+    height: 34px;
+    width: 0;
+    font-size: 16px;
+    padding-left: 12px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.15);
+}
+#search::placeholder{
+    font-family: Roboto;
+    font-size: 16px;
+    
+}
+.create,.bell{
+    height: 35px;
+    cursor: pointer;
+}
+.account{
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.beldiv{
+    position: relative;
+    margin-top: 5px;
+    cursor: pointer;
+    
+}
+.noti{
+    position: absolute;
+    background-color: rgb(241, 55, 55);
+    color: white;
+    top: -2px;
+    right: 0;
+    border-radius: 50%;
+    font-family: Roboto,arial;
+    font-size: 13px;
+    padding: 2px;
+}
+.btn,.btnmic{
+    position: relative;
+}
+.btn .tooltip,.btnmic .tooltip,.upload .tooltip,.beldiv .tooltip{
+    background-color: rgb(221, 215, 215);
+    font-family: Roboto,Arial;
+    font-size: 16px;
+    right: -5px;
+    position: absolute;
+    bottom: -35px;
+    padding: 3px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:10px ;
+}
+.btn:hover .tooltip,.btnmic:hover .tooltip,.upload:hover .tooltip,.beldiv:hover .tooltip{
+    opacity: 1;
+    transition: 1s;
+}
+.upload,.beldiv{
+    position: relative;
+ 
+   
+    
+}
+.beldiv div{
+    position: absolute;
+}
+
+.upload div{
+    position: absolute;
+    background-color: rgb(192, 185, 185);
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: Roboto,arial;
+    padding: 3px;
+   
+}
+

@@ -1,0 +1,17 @@
+h1{
+   background-color:  aqua;
+}
+button{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: "rock.jpg";
+}
+div{
+    font-size: x-large;
+}
+button:hover{
+    transform: scale(1.5);
+    background-color: rgb(84, 246, 84);
+}

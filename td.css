@@ -1,0 +1,43 @@
+#todo-container{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0,0, 1);
+}
+#task{
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+     align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: #ccc 1px solid;
+}
+#add{
+    padding: 10px;
+    border: solid 1px rgba(101, 233, 101, 0.642);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    
+    background-color: rgba(108, 215, 108, 0.89);
+    
+}
+#add:hover{
+    scale: 1.25;
+    transition: 2ms;
+    background-color: rgb(83, 148, 52);
+    
+}
+#taskslist{
+    list-style-type: disc;
+    padding: 1px;
+}
+h1{
+    height: 2rem;
+    line-height: 2rem;
+}
